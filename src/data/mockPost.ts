@@ -14,17 +14,17 @@ export interface Post {
 }
 
 export const mockPost: Post = {
-  title: "The Art of Digital Spaces",
-  date: "October 1, 2026",
-  author: "Baraka",
-  excerpt: "Exploring how the spaces we inhabit online shape our thoughts and creativity.",
+  title: "Why I Write: A Journey of Self-Discovery",
+  date: "October 2, 2026",
+  author: "Wakili Baraka",
+  excerpt: "My urge to write is the urge to give shape and meaning to my life. I write mostly for myself, for my self-regarding pleasure...",
   content: [
-    { type: 'paragraph', text: 'When we think about architecture, we usually think of physical buildings. But what about the digital architecture we inhabit every day? The web is a series of rooms, hallways, and open fields, each designed with intent.' },
-    { type: 'heading', text: 'Form and Function' },
-    { type: 'paragraph', text: 'In the early days of the web, skeuomorphism gave us a sense of familiarity. Buttons looked like real plastic, textures mimicked leather and wood. It was comforting, a bridge between the physical and digital.' },
-    { type: 'image', url: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80', alt: 'Minimalist interior architecture' },
-    { type: 'paragraph', text: 'As we grew more comfortable with screens, minimalism took over. We stripped away the excess, leaving only the essential. But sometimes, in removing the clutter, we also removed the character. Wabi-sabi teaches us to find beauty in the imperfect, the impermanent, and the incomplete.' },
-    { type: 'quote', text: 'Design is not just what it looks like and feels like. Design is how it works.' },
-    { type: 'paragraph', text: 'By exploring different design styles, we can understand the emotional resonance of our digital environments. Each style offers a different lens through which we interact with information.' }
+    { type: 'paragraph', text: 'My literary ambitions are mixed up with feelings of being isolated and undervalued. I know I have a facility for words and a power of facing unpleasant facts and situations, and I feel that I’ve created some sort of private life in literature in which I can get my own back for my failures.' },
+    { type: 'heading', text: 'The Urge for Meaning' },
+    { type: 'paragraph', text: 'My urge to write is the urge to give shape and meaning to my life. I write mostly for myself, for my self-regarding pleasure, trying to excel and always falling short of the excellence I desire. I write not only to find a way into the world but also to hold it away from me so that sheer, senseless events would not devour me.' },
+    { type: 'image', url: '/author-photo.jpg', alt: 'Wakili Baraka standing in front of a plaque' },
+    { type: 'paragraph', text: 'From political commentary on the socio-political landscape of Kenya to reflections on love, sustainable development, and environmental justice, my essays are a lens through which I try to make sense of everything around me. I invite you to join me on this journey. Please, understand me!' },
+    { type: 'quote', text: 'Love is about bottomless empathy, born out of the heart’s revelation that another person is every bit as real as you are.' },
+    { type: 'paragraph', text: 'Through these lines, I hope to continue exploring the complexities of human nature, advocating for what is right, and sharing a piece of my soul with the world.' }
   ]
 };
