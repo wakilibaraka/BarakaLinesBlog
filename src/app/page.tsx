@@ -10,14 +10,14 @@ const STYLES = [
   { id: 'liquid-glass', name: 'Liquid Glass', status: 'completed' },
   { id: 'web-brutalism', name: 'Web Brutalism', status: 'completed' },
   { id: 'neobrutalism', name: 'Neobrutalism', status: 'completed' },
-  { id: 'y2k', name: 'Y2K Digital Aesthetic', status: 'placeholder' },
-  { id: 'frutiger-aero', name: 'Frutiger Aero', status: 'placeholder' },
-  { id: 'flat-design', name: 'Flat Design', status: 'placeholder' },
-  { id: 'minimalism', name: 'Minimalism', status: 'placeholder' },
-  { id: 'claymorphism', name: 'Claymorphism', status: 'placeholder' },
-  { id: 'vernacular-web', name: 'Vernacular Web', status: 'placeholder' },
-  { id: 'aqua', name: 'Aqua', status: 'placeholder' },
-  { id: 'windows-aero', name: 'Windows Aero', status: 'placeholder' },
+  { id: 'y2k', name: 'Y2K Digital Aesthetic', status: 'completed' },
+  { id: 'frutiger-aero', name: 'Frutiger Aero', status: 'completed' },
+  { id: 'flat-design', name: 'Flat Design', status: 'completed' },
+  { id: 'minimalism', name: 'Minimalism (Pure)', status: 'completed' },
+  { id: 'claymorphism', name: 'Claymorphism', status: 'completed' },
+  { id: 'vernacular-web', name: 'Vernacular Web', status: 'completed' },
+  { id: 'aqua', name: 'Aqua', status: 'completed' },
+  { id: 'windows-aero', name: 'Windows Aero', status: 'completed' },
 ];
 
 export default function Home() {
