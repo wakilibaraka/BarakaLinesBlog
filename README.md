@@ -1,63 +1,68 @@
 # BarakaLines Blog — Multi-Style Design Laboratory
 
-A visual styles exploration and redesign testbed for [barakalines.com](https://barakalines.com), rendering real editorial content and photography across distinct visual design paradigms and architectural aesthetics.
+A visual styles exploration and redesign testbed for [barakalines.com](https://barakalines.com), rendering real editorial content and photography across 17 distinct visual design paradigms and architectural aesthetics.
+
+🌐 **Live GitHub Pages URL**: **[https://wakilibaraka.github.io/BarakaLinesBlog/](https://wakilibaraka.github.io/BarakaLinesBlog/)**  
+*(Open this link directly on your phone or desktop to test all themes live!)*
 
 ---
 
-## 🚀 Quick Start (Terminal Commands)
+## 📱 Testing on Your Phone
 
-Run the following command in your terminal from the project directory:
+You can test all 17 designs on your mobile phone in two ways:
+
+### Option 1: Live Cloud URL (Anywhere, No Setup)
+Open **[https://wakilibaraka.github.io/BarakaLinesBlog/](https://wakilibaraka.github.io/BarakaLinesBlog/)** in your phone's browser (Safari/Chrome). Every theme below has a direct link you can tap.
+
+### Option 2: Live Local Wi-Fi (Realtime Hot Reload)
+1. On your Mac terminal, start the server accessible to your local network:
+   ```bash
+   npm run dev -- -H 0.0.0.0
+   ```
+2. Connect your phone to the same Wi-Fi network and open:  
+   **`http://192.168.0.104:3000`**
+
+---
+
+## 🎨 Styles Atlas & Mobile-Friendly Test Links
+
+Tap any link below to open and test that aesthetic directly in your browser:
+
+| # | Style | Live Web / Mobile Link | Local Wi-Fi Link (Phone) | Localhost Link | Defining Signals | Source Code |
+|---|---|---|---|---|---|---|
+| 1 | **Wabi-sabi** | [📱 Test Wabi-sabi](https://wakilibaraka.github.io/BarakaLinesBlog/wabisabi) | [`192.168.0.104:3000/wabisabi`](http://192.168.0.104:3000/wabisabi) | [`localhost:3000/wabisabi`](http://localhost:3000/wabisabi) | Earthy tones, organic noise filter, asymmetrical layout, loose serif typography. | [`src/app/wabisabi`](./src/app/wabisabi/page.tsx) |
+| 2 | **Minimal** | [📱 Test Minimal](https://wakilibaraka.github.io/BarakaLinesBlog/minimal) | [`192.168.0.104:3000/minimal`](http://192.168.0.104:3000/minimal) | [`localhost:3000/minimal`](http://localhost:3000/minimal) | Strict monochrome, negative space as material, crisp Geist typography, zero shadows. | [`src/app/minimal`](./src/app/minimal/page.tsx) |
+| 3 | **Scrapbook** | [📱 Test Scrapbook](https://wakilibaraka.github.io/BarakaLinesBlog/scrapbook) | [`192.168.0.104:3000/scrapbook`](http://192.168.0.104:3000/scrapbook) | [`localhost:3000/scrapbook`](http://localhost:3000/scrapbook) | Notebook blue grid, washi tape, randomized element rotations, mixed font personalities. | [`src/app/scrapbook`](./src/app/scrapbook/page.tsx) |
+| 4 | **Skeuomorphism** | [📱 Test Skeuomorphism](https://wakilibaraka.github.io/BarakaLinesBlog/skeuomorphism) | [`192.168.0.104:3000/skeuomorphism`](http://192.168.0.104:3000/skeuomorphism) | [`localhost:3000/skeuomorphism`](http://localhost:3000/skeuomorphism) | Stitched leather notebook, cream fibrous paper, embossed titles, spine shadow. | [`src/app/skeuomorphism`](./src/app/skeuomorphism/page.tsx) |
+| 5 | **Neumorphism** | [📱 Test Neumorphism](https://wakilibaraka.github.io/BarakaLinesBlog/neumorphism) | [`192.168.0.104:3000/neumorphism`](http://192.168.0.104:3000/neumorphism) | [`localhost:3000/neumorphism`](http://localhost:3000/neumorphism) | Continuous `#e0e5ec` soft plastic, dual soft shadow model, inset pressed states. | [`src/app/neumorphism`](./src/app/neumorphism/page.tsx) |
+| 6 | **Glassmorphism** | [📱 Test Glassmorphism](https://wakilibaraka.github.io/BarakaLinesBlog/glassmorphism) | [`192.168.0.104:3000/glassmorphism`](http://192.168.0.104:3000/glassmorphism) | [`localhost:3000/glassmorphism`](http://localhost:3000/glassmorphism) | Dark space canvas, glowing blur orbs, frosted glass panels (`backdrop-blur-2xl`). | [`src/app/glassmorphism`](./src/app/glassmorphism/page.tsx) |
+| 7 | **Liquid Glass** | [📱 Test Liquid Glass](https://wakilibaraka.github.io/BarakaLinesBlog/liquid-glass) | [`192.168.0.104:3000/liquid-glass`](http://192.168.0.104:3000/liquid-glass) | [`localhost:3000/liquid-glass`](http://localhost:3000/liquid-glass) | Apple water-drop look, adaptive self-tinting, thick specular lensing highlights. | [`src/app/liquid-glass`](./src/app/liquid-glass/page.tsx) |
+| 8 | **Web Brutalism** | [📱 Test Web Brutalism](https://wakilibaraka.github.io/BarakaLinesBlog/web-brutalism) | [`192.168.0.104:3000/web-brutalism`](http://192.168.0.104:3000/web-brutalism) | [`localhost:3000/web-brutalism`](http://localhost:3000/web-brutalism) | Raw default HTML, Times New Roman, `#0000EE` blue links, exposed layout structure. | [`src/app/web-brutalism`](./src/app/web-brutalism/page.tsx) |
+| 9 | **Neobrutalism** | [📱 Test Neobrutalism](https://wakilibaraka.github.io/BarakaLinesBlog/neobrutalism) | [`192.168.0.104:3000/neobrutalism`](http://192.168.0.104:3000/neobrutalism) | [`localhost:3000/neobrutalism`](http://localhost:3000/neobrutalism) | Bright yellow/pink/cyan blocks, 8px black borders, hard unblurred 16px shadows. | [`src/app/neobrutalism`](./src/app/neobrutalism/page.tsx) |
+| 10 | **Y2K Digital Aesthetic** | [📱 Test Y2K](https://wakilibaraka.github.io/BarakaLinesBlog/y2k) | [`192.168.0.104:3000/y2k`](http://192.168.0.104:3000/y2k) | [`localhost:3000/y2k`](http://localhost:3000/y2k) | Cyber matrix grid, chrome metallic borders, holographic text, console badges. | [`src/app/y2k`](./src/app/y2k/page.tsx) |
+| 11 | **Frutiger Aero** | [📱 Test Frutiger Aero](https://wakilibaraka.github.io/BarakaLinesBlog/frutiger-aero) | [`192.168.0.104:3000/frutiger-aero`](http://192.168.0.104:3000/frutiger-aero) | [`localhost:3000/frutiger-aero`](http://localhost:3000/frutiger-aero) | Sky-blue & grass-green gradients, floating water bubbles, glossy specular sweeps. | [`src/app/frutiger-aero`](./src/app/frutiger-aero/page.tsx) |
+| 12 | **Flat Design** | [📱 Test Flat Design](https://wakilibaraka.github.io/BarakaLinesBlog/flat-design) | [`192.168.0.104:3000/flat-design`](http://192.168.0.104:3000/flat-design) | [`localhost:3000/flat-design`](http://localhost:3000/flat-design) | 100% 2D color fills, zero simulated depth or gradients, clean geometric tiles. | [`src/app/flat-design`](./src/app/flat-design/page.tsx) |
+| 13 | **Minimalism (Pure)** | [📱 Test Pure Minimalism](https://wakilibaraka.github.io/BarakaLinesBlog/minimalism) | [`192.168.0.104:3000/minimalism`](http://192.168.0.104:3000/minimalism) | [`localhost:3000/minimalism`](http://localhost:3000/minimalism) | Absolute reduction to essentials, Swiss typography, stark whitespace rhythm. | [`src/app/minimalism`](./src/app/minimalism/page.tsx) |
+| 14 | **Claymorphism** | [📱 Test Claymorphism](https://wakilibaraka.github.io/BarakaLinesBlog/claymorphism) | [`192.168.0.104:3000/claymorphism`](http://192.168.0.104:3000/claymorphism) | [`localhost:3000/claymorphism`](http://localhost:3000/claymorphism) | Puffy 3D marshmallow buttons, two inner shadows + outer shadow, pastel clay. | [`src/app/claymorphism`](./src/app/claymorphism/page.tsx) |
+| 15 | **Vernacular Web** | [📱 Test Vernacular Web](https://wakilibaraka.github.io/BarakaLinesBlog/vernacular-web) | [`192.168.0.104:3000/vernacular-web`](http://192.168.0.104:3000/vernacular-web) | [`localhost:3000/vernacular-web`](http://localhost:3000/vernacular-web) | 1990s GeoCities, starfield tile, animated badges, visitor counter, rainbow rules. | [`src/app/vernacular-web`](./src/app/vernacular-web/page.tsx) |
+| 16 | **Aqua** | [📱 Test Aqua](https://wakilibaraka.github.io/BarakaLinesBlog/aqua) | [`192.168.0.104:3000/aqua`](http://192.168.0.104:3000/aqua) | [`localhost:3000/aqua`](http://localhost:3000/aqua) | Mac OS X candy-gel blue buttons, pinstripe window, gumdrop traffic light controls. | [`src/app/aqua`](./src/app/aqua/page.tsx) |
+| 17 | **Windows Aero** | [📱 Test Windows Aero](https://wakilibaraka.github.io/BarakaLinesBlog/windows-aero) | [`192.168.0.104:3000/windows-aero`](http://192.168.0.104:3000/windows-aero) | [`localhost:3000/windows-aero`](http://localhost:3000/windows-aero) | Windows 7 Aero Glass titlebar, specular light sweeps, glowing controls. | [`src/app/windows-aero`](./src/app/windows-aero/page.tsx) |
+
+---
+
+## 🛠 Terminal Commands
 
 ```bash
-# 1. Install dependencies (if first time)
+# Clone the repository
+git clone https://github.com/wakilibaraka/BarakaLinesBlog.git
+cd BarakaLinesBlog
+
+# Install dependencies
 npm install
 
-# 2. Start the local development server
-npm run dev
+# Start development server accessible on local network (for testing on phone)
+npm run dev -- -H 0.0.0.0
+
+# Export static build
+npm run build
 ```
-
-Once running, open your browser to **[http://localhost:3000](http://localhost:3000)** to explore the style atlas and test each theme.
-
----
-
-## 🎨 Styles Atlas & Live Test Links
-
-Click any of the links below to test each design directly in your browser while your dev server (`npm run dev`) is active:
-
-| # | Style | Status | Browser Test Link | Defining Signals & Characteristics | Source Code |
-|---|---|---|---|---|---|
-| 1 | **Wabi-sabi** | ✅ Completed | [Open `/wabisabi`](http://localhost:3000/wabisabi) | Earthy tones (`#e8e4dc`, `#3e3b32`), organic textures with noise filter, asymmetrical composition, unpolished natural beauty, loose serif typography, desaturated warm photography. | [`src/app/wabisabi`](./src/app/wabisabi/page.tsx) |
-| 2 | **Minimal** | ✅ Completed | [Open `/minimal`](http://localhost:3000/minimal) | Strict monochrome palette, heavy negative space, ultra-crisp typography (Geist Sans), zero borders or drop-shadows, disciplined content rhythm. | [`src/app/minimal`](./src/app/minimal/page.tsx) |
-| 3 | **Scrapbook / Mixed Media** | ✅ Completed | [Open `/scrapbook`](http://localhost:3000/scrapbook) | Notebook blue grid canvas, translucent washi-tape fasteners, dynamic element rotations (`-2°` to `3°`), mixed font personalities (mono, serif, sans), cut-out polaroid photo styling. | [`src/app/scrapbook`](./src/app/scrapbook/page.tsx) |
-| 4 | **Skeuomorphism** | ✅ Completed | [Open `/skeuomorphism`](http://localhost:3000/skeuomorphism) | Real leather notebook cover (`#2b1c11`), stitched margins, cream fibrous paper background, spine depth shadow, debossed & embossed text, metallic badge action. | [`src/app/skeuomorphism`](./src/app/skeuomorphism/page.tsx) |
-| 5 | **Neumorphism** | ✅ Completed | [Open `/neumorphism`](http://localhost:3000/neumorphism) | Continuous `#e0e5ec` soft plastic surface, dual soft shadow model (light top-left highlight, dark bottom-right drop), extruded cards, and inset pressed states. | [`src/app/neumorphism`](./src/app/neumorphism/page.tsx) |
-| 6 | **Glassmorphism** | ✅ Completed | [Open `/glassmorphism`](http://localhost:3000/glassmorphism) | Dark backdrop with vivid glowing blur orbs, frosted glass translucent cards (`backdrop-blur-2xl`), hair-thin glowing borders, and top-edge specular line highlights. | [`src/app/glassmorphism`](./src/app/glassmorphism/page.tsx) |
-| 7 | **Liquid Glass** | ✅ Completed | [Open `/liquid-glass`](http://localhost:3000/liquid-glass) | Modern Apple visionOS/macOS water-drop look, adaptive self-tinting (`mix-blend-color-burn`), thick specular lensing highlights, high-radius bubble cards. | [`src/app/liquid-glass`](./src/app/liquid-glass/page.tsx) |
-| 8 | **Web Brutalism** | ✅ Completed | [Open `/web-brutalism`](http://localhost:3000/web-brutalism) | Raw default HTML elements, Times New Roman type, unstyled document flow, default browser link blue (`#0000EE`), exposed structure, zero decorative rendering. | [`src/app/web-brutalism`](./src/app/web-brutalism/page.tsx) |
-| 9 | **Neobrutalism** | ✅ Completed | [Open `/neobrutalism`](http://localhost:3000/neobrutalism) | High-saturation yellow/pink/cyan blocks, heavy 8px black borders, hard unblurred 16px offset shadows, bold high-impact typography, tactile click shifts. | [`src/app/neobrutalism`](./src/app/neobrutalism/page.tsx) |
-| 10 | **Y2K Digital Aesthetic** | ✅ Completed | [Open `/y2k`](http://localhost:3000/y2k) | Liquid chrome, metallic gradients, gel plastic accents, iridescent blue-silver palette, early 2000s cyber-optimism. | [`src/app/y2k`](./src/app/y2k/page.tsx) |
-| 11 | **Frutiger Aero** | ✅ Completed | [Open `/frutiger-aero`](http://localhost:3000/frutiger-aero) | Nature fused with tech, glossy glass, bright sky-blue and grass-green palettes, water bubbles, dynamic sun flares. | [`src/app/frutiger-aero`](./src/app/frutiger-aero/page.tsx) |
-| 12 | **Flat Design** | ✅ Completed | [Open `/flat-design`](http://localhost:3000/flat-design) | Solid 2D color fills, zero simulated depth or gradients, clean geometric glyph icons, grid-based simplicity. | [`src/app/flat-design`](./src/app/flat-design/page.tsx) |
-| 13 | **Minimalism (Pure)** | ✅ Completed | [Open `/minimalism`](http://localhost:3000/minimalism) | Absolute reduction to essentials, extreme typographical hierarchy, silence and emptiness as foundational material. | [`src/app/minimalism`](./src/app/minimalism/page.tsx) |
-| 14 | **Claymorphism** | ✅ Completed | [Open `/claymorphism`](http://localhost:3000/claymorphism) | Puffy 3D pillowy buttons that resemble play-doh, dual inner shadows + outer soft shadow, large corner radii. | [`src/app/claymorphism`](./src/app/claymorphism/page.tsx) |
-| 15 | **Vernacular Web** | ✅ Completed | [Open `/vernacular-web`](http://localhost:3000/vernacular-web) | GeoCities nostalgic aesthetic, tiled background textures, animated GIF ornaments, hit counters, hand-crafted badges. | [`src/app/vernacular-web`](./src/app/vernacular-web/page.tsx) |
-| 16 | **Aqua** | ✅ Completed | [Open `/aqua`](http://localhost:3000/aqua) | Classic early Mac OS X candy-gel buttons, pinstriped window surfaces, pulsating blue drop controls. | [`src/app/aqua`](./src/app/aqua/page.tsx) |
-| 17 | **Windows Aero** | ✅ Completed | [Open `/windows-aero`](http://localhost:3000/windows-aero) | Windows 7 translucent frosted glass window headers, specular diagonal light sweeps, glowing hover actions. | [`src/app/windows-aero`](./src/app/windows-aero/page.tsx) |
-
----
-
-## 🗂 Project Architecture
-
-- **`src/data/mockPost.ts`**: Unified content model loaded across all styles, sourced from Wakili Baraka's *Why I Write* essay and authentic photography from `barakalines.com`.
-- **`src/app/page.tsx`**: Dynamic hub listing and linking every style with its implementation status.
-- **`src/app/[style]/page.tsx`**: Catch-all dynamic route providing an informative "Upcoming" preview for styles still in development.
-- **`src/app/<style-name>/page.tsx`**: Scoped, high-fidelity implementations of each individual design aesthetic.
-- **`public/author-photo.jpg`**: Author portrait used across all themes.
-
----
-
-## 🛠 Technology Stack
-
-- **Framework**: [Next.js 14](https://nextjs.org/) (App Router, React Server Components)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + Scoped CSS Rules
-- **Typography**: [Geist](https://vercel.com/font) + contextual serif/mono web font fallbacks

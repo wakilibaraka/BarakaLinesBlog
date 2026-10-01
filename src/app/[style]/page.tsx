@@ -1,5 +1,11 @@
 import Link from 'next/link';
 
+export function generateStaticParams() {
+  return [
+    { style: 'preview' }
+  ];
+}
+
 export default function PlaceholderStylePage({ params }: { params: { style: string } }) {
   // Simple title casing
   const title = params.style.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
